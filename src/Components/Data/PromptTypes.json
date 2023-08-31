@@ -1,0 +1,105 @@
+[
+  {
+    "label": "Headline",
+    "promptConnector_output": "Write a brief, punchy title that concisely encapsulates the main idea of an article, blog post, press release, or any other content. The headline should be engaging, accurate, and give a clear indication of what the reader can expect. It plays a vital role in attracting the reader's attention and convincing them to read the content.",
+    "promptConnector_input": "Consider the Headline:"
+  },
+  {
+    "label": "Teaser",
+    "promptConnector_output": "Write a brief summary or preview of the main content that is designed to give the reader more context and detail about the content, thereby enticing them to continue reading. It provides a snapshot of what the content is about without giving away all the details.  The purpose is to further engage the reader, providing enough intriguing information to compel them to read the full article.",
+    "promptConnector_input": "Consider the Teaser:"
+  },
+  {
+    "label": "Article",
+    "promptConnector_output": "Write an article that is intended to inform, persuade, or entertain its target audience. These articles usually provide in-depth coverage of a particular topic, issue, or trend within an industry. They are designed to offer valuable insights, data, and expertise to professionals within that industry, helping them to understand the topic better, make more informed decisions, or stay up-to-date on the latest developments.",
+    "promptConnector_input": "Consider the Article:"
+  },
+  {
+    "label": "News Article",
+    "promptConnector_output": "Write a news article, which is a short to medium-length articles that report on recent developments in a specific industry. They are time-sensitive, meaning they are most relevant shortly after the event or announcement they're reporting on. News articles aim to inform readers about the latest happenings, including product launches, company mergers, regulatory changes, and significant market trends. They are typically written in an objective, factual style, with the most important information presented first, followed by details and background in descending order of importance, a structure known as the inverted pyramid. News articles often include quotes from involved parties or industry experts for additional context and insight.",
+    "promptConnector_input": "Consider the following News Article:"
+  },
+  {
+    "label": "Feature Article",
+    "promptConnector_output": "Write a feature article, which is an article that delves deep into a subject, providing a comprehensive and detailed exploration of a topic. They offer rich content, from background information and expert opinions to case studies and data analysis. Although they can cover current events or trends, they are not strictly tied to timely occurrences. The writing style for feature articles can incorporate storytelling elements to engage readers and provide a richer reading experience.",
+    "promptConnector_input": "Use the following article as input, following any subjects and writing styles:"
+  },
+  {
+    "label": "Opinion Pieces / Editorial",
+    "promptConnector_output": "Write a opinion piece or editorial, which offers a platform for expressing viewpoints and perspectives. They are subjective pieces where the author shares their stance on an industry-related issue or topic, backed up with strong arguments and personal experiences. They aim to influence or persuade the reader and can help establish the author's thought leadership in the field. It's important to note that they should be clearly marked as opinion pieces to differentiate them from objective content.",
+    "promptConnector_input": "Consider the following LinkedIn Post:"
+  },
+  {
+    "label": "How-to / Instructional Articles",
+    "promptConnector_output": "Write a How-to or Instructional Article, which is an article that offers practical advice, solutions, or step-by-step guidance on various topics. The subjects can range from the usage of specific tools or software, strategies to improve business practices, or tips to understand industry norms better. The structure of these articles is usually clear and sequential, often using bullet points or numbered steps to enhance readability. Visual aids like screenshots, infographics, or videos can be used to better illustrate the processes described.",
+    "promptConnector_input": "Consider the following Instructional Article:"
+  },
+  {
+    "label": "LinkedIn Post",
+    "promptConnector_output": "Write a post that is catered to a LinkedIn audience that uses Bobit Business Media as a background company and talks about b2b media operations.",
+    "promptConnector_input": "Consider the following LinkedIn Post:"
+  },
+  {
+    "label": "Fact Box (Input Only)",
+    "promptConnector_input": "Use the following facts:"
+  },
+  {
+    "label": "Links Box - 1",
+    "promptConnector_input": "I am going to give you a list of URLs and associated tags for the URL. When one of the tags matches anything related to the article, include the URL as hyperlink in as a references section. For formatting of the URL reference link, use the following format: HTML in the style - <a href='[URL]'>[Parse Name from URL]</a>.  So for example. <a href='[Here URL]'>Here</a> is a good example.  For formatting of the list I will send you, I will use the following format:  [URL: a URL to a website, Tags: a list of subjects associated to the website]"
+  },
+  {
+    "label": "Links Box - 2",
+    "promptConnector_input": "I am going to give you a list of URLs and Tags. When one of the Tags relates to something in the article, embed it like this example text: 'Here it is.  In 2020 <a href='https://www.automotive-fleet.com/10163235/2020' target='_self'>11,654 people</a> had pizza.  And so on...'"
+  },
+  {
+    "label": "Links Box",
+    "promptConnector_input": "I am going to give you a list of URLs and associated tags for the URL. When writing a response, if the response is relevant to a tag, include a hyperlink using the relevant word as anchor text.  Use HTML href.  Here is an example: 'Here it is.  In 2020 <a href='https://www.automotive-fleet.com/10163235/2020' target='_self'>11,654 people</a> had pizza.  And so on...'"
+  },
+  {
+    "label":"AgileProject - Goals",
+    "promptConnector_input": "This should be to achieve these goals:",
+    "promptConnector_output": "Write a list of goals that could be used for an agile project.  Your response should be a numbered list that concisely and elegantly list out each goal. Use technical details wherever possible, explaining individual steps about how to achieve the goal as sub-points where applicable."
+    },
+    {
+    "label":"AgileProject - User Story",
+    "promptConnector_input": "Consider the following story: ",
+    "promptConnector_output": "write a user story using the following: 1) Summary: A brief summary using the following format: 'BCG - [Short one line summary]' -  2) Acceptance Criteria: A short block of text that says something similar to: “As a [user] I would like [short description] so that I can [description of need].  3) Description: A simple description of what needs to be done, describing how it would be beneficial and provide value.  4) Suggestion: [Complete the story and add the result here, write code in the prefered language and do not use a codeblock, providing complete code with specific examples of implementation.]  Format your response using Jira Markup so that it can be pasted into a Jira Ticket description box."
+    },
+    {
+    "label":"AgileProject - Team",
+    "promptConnector_output": "The following members are on the team and should be considered for project work and user acceptance along with other various roles as described below:"
+    },
+    {
+    "label":"AgileProject - Tasks - Finished",
+    "promptConnector_input": "The following is a list of tasks that have been completed:",
+    "promptConnector_output": "The following is a list of tasks that have been completed:"
+  },
+  {
+  "label":"AgileProject - Tasks - In Progress",
+  "promptConnector_input": "The following is a list of tasks that are in progress:",
+  "promptConnector_output": "The following is a list of tasks that are in progress:"
+  },
+  {
+"label":"AgileProject - Tasks - To Do",
+  "promptConnector_input": "The following is a list of tasks that are todo’s:",
+  "promptConnector_output": "The following is a list of tasks that are todo’s:"
+},
+{
+"label":"AgileProject - Tech Stack",
+"promptConnector_input": "Generate a suggested tech stack that would work for project development.  List each item in a bullet point, including sections for groupings such as backend, frontend, etc.  Add a one paragraph description of why you made these choices to the end.  Add a one paragraph description of other possible options to the end also.",
+"promptConnector_output": "For this project we are using the following technologies and tools, any work-related items should involve this tech stack:"
+},
+{
+"label":"Ga4 Report",
+"promptConnector_input": "Given the following fields, write an effective report using ga4 metrics and dimensions for analyzing user activity at a b2b media site.  Respond with a report name (in camelCase) and Two sentance description, inclomplete json (not an object) with your report simiar to: 'metrics': [ {'name': 'metricName'}, ... ], 'dimensions': [ {'name': 'dimensionName'}, ... ]  and also incomplete json defining the data types of the approprite metrics and dimensions such as:  dataTypes = {  'screenPageViews' : 'int', ... }.     Limit the report to 10 metrics and 9 dimensions.  Do not format output text, use plain text.  Metrics: active1DayUsers active28DayUsers active7DayUsers activeUsers adUnitExposure addToCarts advertiserAdClicks advertiserAdCost advertiserAdCostPerClick advertiserAdCostPerConversion advertiserAdImpressions averagePurchaseRevenue averagePurchaseRevenuePerPayingUser averagePurchaseRevenuePerUser averageRevenuePerUser averageSessionDuration bounceRate cartToViewRate checkouts cohortActiveUsers cohortTotalUsers conversions crashAffectedUsers crashFreeUsersRate dauPerMau dauPerWau ecommercePurchases engagedSessions engagementRate eventCount eventCountPerUser eventValue eventsPerSession firstTimePurchaserConversionRate firstTimePurchasers firstTimePurchasersPerNewUser itemListClickEvents itemListClickThroughRate itemListViewEvents itemPromotionClickThroughRate itemRevenue itemViewEvents itemsAddedToCart itemsCheckedOut itemsClickedInList itemsClickedInPromotion itemsPurchased itemsViewed itemsViewedInList itemsViewedInPromotion newUsers organicGoogleSearchAveragePosition organicGoogleSearchClickThroughRate organicGoogleSearchClicks organicGoogleSearchImpressions promotionClicks promotionViews publisherAdClicks publisherAdImpressions purchaseRevenue purchaseToViewRate purchaserConversionRate returnOnAdSpend screenPageViews screenPageViewsPerSession screenPageViewsPerUser scrolledUsers sessionConversionRate sessions sessionsPerUser shippingAmount taxAmount totalAdRevenue totalPurchasers totalRevenue totalUsers transactions transactionsPerPurchaser userConversionRate userEngagementDuration wauPerMau Dimensions: achievementId adFormat adSourceName adUnitName appVersion audienceId audienceName brandingInterest browser campaignId campaignName character city cityId cohort cohortNthDay cohortNthMonth cohortNthWeek contentGroup contentId contentType continent continentId country countryId date dateHour dateHourMinute day dayOfWeek dayOfWeekName defaultChannelGroup deviceCategory deviceModel eventName fileExtension fileName firstSessionDate firstUserCampaignId firstUserCampaignName firstUserDefaultChannelGroup firstUserGoogleAdsAccountName firstUserGoogleAdsAdGroupId firstUserGoogleAdsAdGroupName firstUserGoogleAdsAdNetworkType firstUserGoogleAdsCampaignId firstUserGoogleAdsCampaignName firstUserGoogleAdsCampaignType firstUserGoogleAdsCreativeId firstUserGoogleAdsCustomerId firstUserGoogleAdsKeyword firstUserGoogleAdsQuery firstUserManualAdContent firstUserManualTerm firstUserMedium firstUserSource firstUserSourceMedium firstUserSourcePlatform fullPageUrl googleAdsAccountName googleAdsAdGroupId googleAdsAdGroupName googleAdsAdNetworkType googleAdsCampaignId googleAdsCampaignName googleAdsCampaignType googleAdsCreativeId googleAdsCustomerId googleAdsKeyword googleAdsQuery groupId hostName hour isConversionEvent isoWeek isoYear isoYearIsoWeek itemAffiliation itemBrand itemCategory itemCategory2 itemCategory3 itemCategory4 itemCategory5 itemId itemListId itemListName itemListPosition itemLocationID itemName itemPromotionCreativeName itemPromotionCreativeSlot itemPromotionId itemPromotionName itemVariant landingPagePlusQueryString language languageCode level linkClasses linkDomain linkId linkText linkUrl manualAdContent manualTerm medium method minute mobileDeviceBranding mobileDeviceMarketingName mobileDeviceModel month newVsReturning nthDay nthHour nthMinute nthMonth nthWeek nthYear operatingSystem operatingSystemVersion operatingSystemWithVersion orderCoupon outbound pageLocation pagePath pagePathPlusQueryString pageReferrer pageTitle percentScrolled platform platformDeviceCategory region screenResolution searchTerm sessionCampaignId sessionCampaignName sessionDefaultChannelGroup sessionGoogleAdsAccountName sessionGoogleAdsAdGroupId sessionGoogleAdsAdGroupName sessionGoogleAdsAdNetworkType sessionGoogleAdsCampaignId sessionGoogleAdsCampaignName sessionGoogleAdsCampaignType sessionGoogleAdsCreativeId sessionGoogleAdsCustomerId sessionGoogleAdsKeyword sessionGoogleAdsQuery sessionManualAdContent sessionManualTerm sessionMedium sessionSa360AdGroupName sessionSa360CampaignId sessionSa360CampaignName sessionSa360CreativeFormat sessionSa360EngineAccountId sessionSa360EngineAccountName sessionSa360EngineAccountType sessionSa360Keyword sessionSa360Medium sessionSa360Query sessionSa360Source sessionSource sessionSourceMedium sessionSourcePlatform shippingTier signedInWithUserId source sourceMedium sourcePlatform streamId streamName testDataFilterId testDataFilterName transactionId unifiedPagePathScreen unifiedPageScreen unifiedScreenClass unifiedScreenName userAgeBracket userGender videoProvider videoTitle videoUrl virtualCurrencyName visible week year yearMonth yearWeek",
+"promptConnector_output": "For this project we are using the following technologies and tools, any work-related items should involve this tech stack:"
+},
+{
+"label":"Query - MySQL",
+"promptConnector_input": "Generate a MySQL query for the requested action.",
+"promptConnector_output": "Considering the following MySql query:"
+}
+
+
+
+]

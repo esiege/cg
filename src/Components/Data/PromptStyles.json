@@ -1,0 +1,40 @@
+[
+  {
+    "label": "2-3 Sentences",
+    "value": "It should be 2-3 sentences long."
+  },
+  {
+    "label": "HTML 1",
+    "value": "Wrap your response in markup HTML, make it have a body and a <p>"
+  },
+  {
+    "label": "HTML CSS (dark)",
+    "value": "Wrap your response in markup HTML, make it have a body and a <p>.  Add inline styles the html that color it in dark modern tones like a dark themed IDE or UI."
+  },
+  {
+    "label": "HTML CSS (light)",
+    "value": "Wrap your response in markup HTML, make it have a body and a <p>.  Add inline styles in the html that give it a light friendly tone, easy to use UI."
+  },
+  {
+    "label": "3 Paragraphs",
+    "value": "It should be 3 paragraphs long."
+  },
+  {
+    "label": "List of 10 things",
+    "value": "Your response should be a list of 10, and only a list of 10 things.  Do not reply with anything else other than a list of 10 things.  Number the list 1., 2., 3., but otherwise you should not reply with anything else except the list."
+  },
+  {
+    "label": "Detailed and well written",
+    "value": "It should be detailed and well written using beautiful grammer and great descriptions that leave the user captivated and amazed."
+  },
+  {
+    "label": "Simple",
+    "value": "Use simple language and simple terms"
+  },
+  {
+    "label": "Technical",
+    "value": "Use specific details and technical accuracy wherever possible, expand on topics to specific details."
+  }
+    
+  ]
+  

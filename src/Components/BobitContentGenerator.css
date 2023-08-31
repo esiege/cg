@@ -1,0 +1,206 @@
+.bobit-content-generator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tag-selection {
+  margin-bottom: 1rem;
+}
+
+.custom-tag-input {
+  margin-bottom: 1rem;
+}
+
+.custom-tag-input input {
+  margin-right: 0.5rem;
+}
+
+.selected-tags {
+  margin-bottom: 1rem;
+}
+
+.tag {
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  color: black;
+  font-weight: 700;
+}
+
+.remove-tag {
+  color: #ff0000;
+  font-weight: 700;
+  font-size: small;
+  cursor: pointer;
+  padding: 0 5px;
+  margin-left: 5px;
+  border: solid 1px rgb(255, 203, 203);
+  border-radius: 10px;
+  background-color: rgb(255, 213, 213);
+}
+
+.green-button button {
+  margin: 3px 5px;
+  padding: 0.5rem 1rem;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.green-button button:hover {
+  background-color: #45a049;
+}
+
+.red-button button {
+  margin: 3px 5px;
+  padding: 0.5rem 1rem;
+  background-color: #af4c4c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.red-button button:hover {
+  background-color: #a04545;
+}
+
+.yellow-button button {
+  margin: 3px 5px;
+  padding: 0.5rem 1rem;
+  background-color: #afa84c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.yellow-button button:hover {
+  background-color: #a09845;
+}
+
+.button-small button {
+  padding: 0.1rem 1rem;
+}
+
+.green-button-small button {
+  margin: 3px 5px;
+  padding: 0.1rem 1rem;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.green-button-small button:hover {
+  background-color: #45a049;
+}
+
+.optionA-button button {
+  margin: 3px 5px;
+  padding: 0.3rem 1rem;
+  background-color: #4c9eaf;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.optionB-button button {
+  margin: 3px 5px;
+  padding: 0rem 1rem;
+  background-color: #91af4c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.optionBlack-button button {
+  padding: 0.1rem 1rem;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 6px;
+}
+
+.buttonRow {
+  margin-top: -34px;
+  margin-bottom: 8px;
+}
+
+.prompt-block {
+  border: solid 3px gray;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.prompt-header {
+  font-weight: 700;
+  position: relative;
+}
+
+.remove-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  color: red;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.prompt-item {
+  border: solid 2px rgb(104, 104, 104);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 1px;
+}
+
+.prompt-item textarea {
+  width: 80vw;
+  height: 200px;
+  margin: 20px;
+  padding: 5px;
+  resize: vertical;
+}
+
+.headerRow {
+  height: 50px;
+  border-bottom: solid 2px darkgreen;
+  width: 100vw;
+  margin: 20px 0;
+}
+
+.logo {
+  text-align: left;
+  margin: -20px 25px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.logoText {
+  text-align: left;
+  margin: 12px 25px;
+  font-size: 12px;
+  font-weight: 700;
+  color: gray;
+}
+
+.green-button-container {
+  margin: -25px 20px 10px 20px;
+  padding: 5px;
+  background-color: rgb(56, 56, 56);
+}
