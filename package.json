@@ -1,5 +1,6 @@
 {
-  "name": "bobitcontentgenerator",
+  "name": "cg",
+  "homepage": "https://esiege.github.io/cg",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
